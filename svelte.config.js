@@ -8,7 +8,10 @@ const config = {
 	kit: {
 		adapter: adapter({
 			out: 'micro/site',
-			precompress: true
+			precompress: true,
+			csrf: {
+				checkOrigin: false
+			}
 		})
 	}
 };

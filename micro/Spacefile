@@ -10,4 +10,4 @@ micros:
     commands:
       - ls -al 
     run:
-      node site/index.js
+      node server.js
